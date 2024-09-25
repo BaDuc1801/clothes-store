@@ -1,0 +1,41 @@
+.li-items-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.item-infor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.li-items {
+    margin: 20px 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px rgb(136, 131, 131);
+    cursor: pointer;
+}
+
+.li-items-name{
+    padding: 0px 10px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.li-items-price{
+    padding: 0px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.li-evaluate-sold{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}

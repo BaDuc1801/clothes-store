@@ -1,0 +1,199 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e8e8e8;
+}
+
+.shop-section1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.icon-name-shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-shop {
+    margin-right: 10px;
+    font-size: 40px;
+    color: #1677FF;
+}
+
+.name-shop {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.link-no-underline {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.input-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1677FF;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-search input {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 30vw;
+}
+
+.icon-search {
+    cursor: pointer;
+    font-size: 24px;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.heart-icon {
+    color: black;
+    font-size: 26px;
+}
+
+.shopping-cart {
+    color: black;
+    font-size: 32px;
+}
+
+.login button {
+    background-color: #1677FF;
+    color: #fff;
+    border: 1px solid #1677FF;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.login button:hover{
+    color: #1677FF;
+    background-color: #fff;
+    border: 1px solid #1677FF;
+}
+
+.shop-tab{
+    margin: 20px 50px 0px 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.tabs{
+    padding: 0 30px;
+    background-color: #fff;
+}
+
+:where(.css-dev-only-do-not-override-qnu6hi).ant-tabs .ant-tabs-tab{
+    font-size: 20px;
+}
+
+.shop-select{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    z-index: 5;
+}
+
+.select-op{
+    width: 250px;
+}
+
+.pagi {
+    background-color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.su-bt{
+    margin-right: 20px;
+}
+
+.avt-img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.au {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-avt {
+    position: absolute;
+    display: none;
+    z-index: 8;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    right: 30px;
+    top: 70px;
+    border: 1px solid #89b9fd;
+    cursor: pointer;
+}
+
+.avt-img:hover .menu-avt{
+    display: block;
+}
+
+.up-avt{
+    padding: 10px 20px
+}
+
+.up-avt:hover{
+    background-color: #f3f7fd;
+    border-radius: 5px;
+}
+
+.log-avt{
+    padding: 10px 20px
+}
+
+.log-avt:hover{
+    background-color: #f3f7fd;
+    border-radius: 5px;
+}
+
+.change-pass{
+    padding: 10px 20px
+}
+
+.change-pass:hover{
+    background-color: #f3f7fd;
+    border-radius: 5px;
+}

@@ -1,0 +1,30 @@
+.pv-img {
+    width: 500px;
+    overflow: hidden;
+}
+
+
+.div-img-carousel img {
+    width: calc(100% - 20px); 
+    height: 160px;
+    margin: 0 10px;
+    object-fit: cover;
+}
+
+/* .img-click{
+    width: 200px;
+} */
+
+.img-click img{
+    width: 500px;
+    height: 500px;
+}
+
+.div-img-carousel.selected img {
+    border: 2px solid #1677FF;
+}
+
+:where(.css-dev-only-do-not-override-qnu6hi).ant-carousel .slick-prev, :where(.css-dev-only-do-not-override-qnu6hi).ant-carousel .slick-next {
+    color: #1677FF;
+}
+

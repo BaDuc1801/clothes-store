@@ -1,0 +1,68 @@
+.icon-name-l {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-l {
+    color: #1677FF;
+    font-size: 100px;
+}
+
+.name-l {
+    color: #000;
+    font-size: 80px;
+}
+
+.ff {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: #1677FF;
+    font-weight: 700;
+}
+
+.login-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.identify-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.identify {
+    text-align: center;
+    margin: auto;
+}
+
+.for-p {
+    margin-bottom: 30px;
+}
+
+.pin {
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.identify-but {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.resend-but {
+    width: 300px;
+    margin-bottom: 10px;
+}

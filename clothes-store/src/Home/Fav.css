@@ -1,0 +1,26 @@
+.table-css{
+    margin: 20px 50px 0 50px;
+}
+
+.shopping-cart-a{
+    font-size: 22px;
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+.action-flex {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.thanhtoan{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.addd{
+    margin: 20px 500px;
+}
